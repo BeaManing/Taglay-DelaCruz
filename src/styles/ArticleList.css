@@ -1,0 +1,84 @@
+/* Page container */
+.article-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Page title */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #62dafb;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+/* Loading text */
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Container for all articles */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* space between articles */
+}
+
+/* Individual article card */
+.article-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Article title */
+.article-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #62dafb;
+}
+
+/* Article author */
+.article-author {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+/* Article content paragraphs */
+.article-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.article-card-link {
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* inherit text color */
+  display: block;        /* make entire card clickable */
+  margin-bottom: 2rem;   /* space between cards */
+}
+
+.article-card-link:last-child {
+  margin-bottom: 0;      /* remove margin after last card */
+}
+.article-card-link:hover .article-card {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
