@@ -1,7 +1,7 @@
 import '../styles/Footer.css'
 import fb from '../components/facebook-logo-facebook-icon-free-free-vector-removebg-preview.png'
 import x from '../components/images-removebg-preview.png'
-import ig from '../components/ig logo.png'
+import ig from '../components/iglogo.png'
 
 const Footer = () => {
   return (
