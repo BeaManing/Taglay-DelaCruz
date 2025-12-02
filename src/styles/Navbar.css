@@ -1,5 +1,6 @@
 nav{
     backdrop-filter: blur(12px);
+    background-color: blue;
     -webkit-backdrop-filter: blur(12px);
     border-radius: 12px;
     padding: 3px 24px;
