@@ -1,89 +1,90 @@
 const articles = [
   {
     name: "Beatriz Dela Cruz",
-    title: "The Importance of JavaScript in Modern Web Development",
+    title: "Why Cats Make the Perfect Pets",
     content: [
-      "JavaScript is one of the most essential programming languages for modern web development.",
-      "It allows developers to create dynamic and interactive websites that respond instantly to user actions.",
-      "Libraries like React, Vue, and Angular make it easier to build complex front-end applications.",
-      "JavaScript also extends beyond the browser with Node.js for server-side programming.",
-      "Learning JavaScript opens a world of opportunities in web and software development."
+      "Cats are independent yet affectionate, making them ideal companions for many households.",
+      "They require minimal maintenance compared to other pets but still provide emotional support.",
+      "Cats can reduce stress and anxiety through their playful and soothing presence.",
+      "Their curiosity and unique personalities make each cat a delightful addition to a home.",
+      "Understanding a cat’s behavior strengthens the bond between pet and owner."
     ]
   },
   {
     name: "Andrich Acuin",
-    title: "Understanding Asynchronous JavaScript",
+    title: "The Health Benefits of Owning a Cat",
     content: [
-      "Asynchronous programming is crucial for responsive web applications.",
-      "Promises allow handling operations that take time, such as API calls or file reads.",
-      "Async/await makes asynchronous code easier to read and maintain by looking synchronous.",
-      "Mastering asynchronous JavaScript ensures smoother user experiences and better performance."
+      "Owning a cat can lower blood pressure and reduce the risk of heart disease.",
+      "Interacting with cats increases serotonin and dopamine levels, improving mood.",
+      "Cats can provide companionship and alleviate feelings of loneliness.",
+      "Playing with a cat promotes physical activity and mental relaxation.",
+      "Overall, cats contribute positively to both mental and physical well-being."
     ]
   },
   {
     name: "Cheeto Tommy",
-    title: "Top JavaScript Frameworks in 2025",
+    title: "Famous Cats on the Internet",
     content: [
-      "JavaScript frameworks help developers build applications efficiently.",
-      "React is widely used for creating interactive UIs with reusable components.",
-      "Vue.js is appreciated for its simplicity and flexibility.",
-      "Angular is suited for large-scale enterprise applications.",
-      "Svelte and Next.js are gaining popularity for performance and server-side rendering."
+      "Cats dominate the internet with their hilarious and adorable antics.",
+      "From Grumpy Cat to Lil Bub, feline celebrities have millions of fans worldwide.",
+      "Cat videos and GIFs are widely shared on social media platforms daily.",
+      "These viral cats have inspired memes, merchandise, and even books.",
+      "Internet cats continue to entertain and bring joy to audiences globally."
     ]
   },
   {
     name: "Marie Villanueva",
-    title: "Why Responsive Design Matters in 2025",
+    title: "Different Breeds of Cats and Their Traits",
     content: [
-      "With the rise of mobile-first usage, responsive design has become more critical than ever.",
-      "Modern users expect websites to adapt seamlessly to any device, whether phones, tablets, or desktops.",
-      "CSS frameworks like Tailwind, Bootstrap, and Material UI simplify building responsive layouts.",
-      "Fluid grids, flexible images, and media queries help improve accessibility and user engagement.",
-      "A responsive website leads to better SEO, faster performance, and higher user satisfaction."
+      "Siamese cats are known for their vocal nature and striking blue eyes.",
+      "Maine Coons are gentle giants, famous for their size and friendly personality.",
+      "Persian cats have luxurious long fur and require regular grooming.",
+      "Bengal cats are active and playful, often resembling miniature leopards.",
+      "Understanding breeds helps owners choose a cat that matches their lifestyle."
     ]
   },
   {
     name: "Johnriel Santos",
-    title: "Getting Started with React Hooks",
+    title: "How to Keep Your Cat Happy and Healthy",
     content: [
-      "React Hooks revolutionized how developers manage state and side effects in functional components.",
-      "The useState hook allows you to create and update state without writing class components.",
-      "useEffect enables running side effects like fetching data or updating the document title.",
-      "Custom hooks help you extract and reuse logic between components cleanly.",
-      "Understanding hooks is essential for building modern and maintainable React applications."
+      "Provide a balanced diet tailored to your cat’s age and health needs.",
+      "Regular vet check-ups help prevent illness and detect health issues early.",
+      "Offer toys and scratching posts to stimulate mental and physical activity.",
+      "Create a safe and comfortable environment for your cat to explore and relax.",
+      "Positive interaction and playtime strengthen the bond between cat and owner."
     ]
   },
   {
     name: "Raven Dizon",
-    title: "The Rise of TypeScript in Front-End Development",
+    title: "Cats and Their Unique Personalities",
     content: [
-      "TypeScript has become the default choice for many teams due to its type safety and scalability.",
-      "It catches errors before runtime, reducing bugs and improving developer productivity.",
-      "Modern frameworks like Angular, React, and Next.js all offer first-class TypeScript support.",
-      "TypeScript improves collaboration by making code more predictable and self-documenting.",
-      "Learning TypeScript is a valuable investment for building large and professional-grade applications."
+      "Each cat has its own distinct personality, from playful to calm and affectionate.",
+      "Some cats enjoy human interaction, while others prefer solitude.",
+      "Observing behavior helps understand a cat’s needs and moods.",
+      "Cats communicate through body language, meows, and purring.",
+      "Respecting a cat’s personality fosters a harmonious home environment."
     ]
   },
   {
     name: "Francis Pagulayan",
-    title: "How APIs Power Modern Applications",
+    title: "The History of Cats and Humans",
     content: [
-      "APIs allow applications to communicate with each other and share data seamlessly.",
-      "REST APIs are widely used for simple and scalable web services.",
-      "GraphQL is becoming popular due to its flexibility in retrieving exactly the data you need.",
-      "API authentication methods like OAuth, JWT, and API keys ensure secure data access.",
-      "Understanding APIs is essential for integrating services and building full-stack applications."
+      "Cats have been domesticated for thousands of years, first in ancient Egypt.",
+      "They were revered as sacred animals and protectors of food stores.",
+      "Cats spread across the world as companions and pest controllers.",
+      "Over centuries, cats have influenced culture, folklore, and art.",
+      "Understanding the history of cats enriches appreciation for their role in human life."
     ]
   },
   {
     name: "Kyla Maninang",
-    title: "The Future of AI in Web Development",
+    title: "Fun Facts About Cats You Might Not Know",
     content: [
-      "AI tools are transforming how developers build, test, and optimize web applications.",
-      "Machine learning enhances personalization, making user experiences smarter and more adaptive.",
-      "AI-driven code assistants help speed up development and reduce repetitive tasks.",
-      "Web applications increasingly rely on predictive analytics to improve engagement and performance.",
-      "AI will continue shaping the future of web development with automation and intelligent features."
+      "Cats can rotate their ears up to 180 degrees to detect sounds precisely.",
+      "They have retractable claws that help them climb, hunt, and play.",
+      "A cat’s whiskers are highly sensitive and aid in navigation.",
+      "Some cats can run up to 30 miles per hour in short bursts.",
+      "Despite being domesticated, cats retain many hunting instincts from their wild ancestors."
     ]
   }
 ];
