@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/ArticleList.css';
+import peepingCat from '../components/catSide.png';
 
 const ArticleList = ({ articles }) => {
   return (
@@ -15,6 +16,8 @@ const ArticleList = ({ articles }) => {
           </div>
         </Link>
       ))}
+
+      <img src={peepingCat} alt="Peeping cat" className="peeping-cat" />
     </>
   );
 };

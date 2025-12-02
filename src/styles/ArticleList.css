@@ -76,10 +76,19 @@
 }
 
 .article-card-link:last-child {
-  margin-bottom: 0;      /* remove margin after last card */
+  margin-bottom: 0;      
 }
 .article-card-link:hover .article-card {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.peeping-cat {
+  position: fixed;      
+  right: 0;              
+  bottom: 10%;          
+  width: 500px;          
+  height: 600px;
+  z-index: 100;       
 }
 
