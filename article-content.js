@@ -30,6 +30,61 @@ const articles = [
       "Angular is suited for large-scale enterprise applications.",
       "Svelte and Next.js are gaining popularity for performance and server-side rendering."
     ]
+  },
+  {
+    name: "Marie Villanueva",
+    title: "Why Responsive Design Matters in 2025",
+    content: [
+      "With the rise of mobile-first usage, responsive design has become more critical than ever.",
+      "Modern users expect websites to adapt seamlessly to any device, whether phones, tablets, or desktops.",
+      "CSS frameworks like Tailwind, Bootstrap, and Material UI simplify building responsive layouts.",
+      "Fluid grids, flexible images, and media queries help improve accessibility and user engagement.",
+      "A responsive website leads to better SEO, faster performance, and higher user satisfaction."
+    ]
+  },
+  {
+    name: "Johnriel Santos",
+    title: "Getting Started with React Hooks",
+    content: [
+      "React Hooks revolutionized how developers manage state and side effects in functional components.",
+      "The useState hook allows you to create and update state without writing class components.",
+      "useEffect enables running side effects like fetching data or updating the document title.",
+      "Custom hooks help you extract and reuse logic between components cleanly.",
+      "Understanding hooks is essential for building modern and maintainable React applications."
+    ]
+  },
+  {
+    name: "Raven Dizon",
+    title: "The Rise of TypeScript in Front-End Development",
+    content: [
+      "TypeScript has become the default choice for many teams due to its type safety and scalability.",
+      "It catches errors before runtime, reducing bugs and improving developer productivity.",
+      "Modern frameworks like Angular, React, and Next.js all offer first-class TypeScript support.",
+      "TypeScript improves collaboration by making code more predictable and self-documenting.",
+      "Learning TypeScript is a valuable investment for building large and professional-grade applications."
+    ]
+  },
+  {
+    name: "Francis Pagulayan",
+    title: "How APIs Power Modern Applications",
+    content: [
+      "APIs allow applications to communicate with each other and share data seamlessly.",
+      "REST APIs are widely used for simple and scalable web services.",
+      "GraphQL is becoming popular due to its flexibility in retrieving exactly the data you need.",
+      "API authentication methods like OAuth, JWT, and API keys ensure secure data access.",
+      "Understanding APIs is essential for integrating services and building full-stack applications."
+    ]
+  },
+  {
+    name: "Kyla Maninang",
+    title: "The Future of AI in Web Development",
+    content: [
+      "AI tools are transforming how developers build, test, and optimize web applications.",
+      "Machine learning enhances personalization, making user experiences smarter and more adaptive.",
+      "AI-driven code assistants help speed up development and reduce repetitive tasks.",
+      "Web applications increasingly rely on predictive analytics to improve engagement and performance.",
+      "AI will continue shaping the future of web development with automation and intelligent features."
+    ]
   }
 ];
 
