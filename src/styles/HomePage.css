@@ -1,0 +1,25 @@
+/* Home Page Container */
+.home-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Title matches .page-title style */
+.home-title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #dcdcdc;
+  line-height: 1.6;
+}

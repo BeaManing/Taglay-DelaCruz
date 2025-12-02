@@ -1,7 +1,14 @@
+import '../styles/HomePage.css';
+
 const HomePage = () => {
   return (
-    <div>This is HomePage</div>
-  )
-}
+    <div className="home-container">
+      <h1 className="home-title">Welcome to my Homepage</h1>
+      <p className="home-subtitle">
+        Explore articles, learn new topics, and stay updated with the latest content.
+      </p>
+    </div>
+  );
+};
 
-export default HomePage
+export default HomePage;
