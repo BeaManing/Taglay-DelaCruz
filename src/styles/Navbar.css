@@ -1,6 +1,6 @@
 nav{
     backdrop-filter: blur(12px);
-    background-color: blue;
+    background: transparent;
     -webkit-backdrop-filter: blur(12px);
     border-radius: 12px;
     padding: 3px 24px;
@@ -34,14 +34,15 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: #62dafb;
+    color:  white;
     font-size: 18px;
-    font-weight: bold;
     padding: 8px 16px;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50;
 }
 
 nav ul li a:hover{
-    color: #222222;
+    color: #282c34;
 }
