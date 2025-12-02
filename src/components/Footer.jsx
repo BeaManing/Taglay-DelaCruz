@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
 
         <div className="footer-section">
-          <h3>About Us</h3>
+          <h3>About Me</h3>
           <p>Beatriz Dela Cruz</p>
           <p>Manila, Philippines</p>
         </div>

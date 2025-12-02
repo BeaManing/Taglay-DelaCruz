@@ -1,4 +1,6 @@
 import '../styles/HomePage.css';
+import catGIF from '../components/catGIF.gif';
+
 
 const HomePage = () => {
   return (
@@ -7,6 +9,9 @@ const HomePage = () => {
       <p className="home-subtitle">
         Explore articles, learn new topics, and stay updated with the latest content.
       </p>
+
+
+     <img src={catGIF} alt="Funny cat GIF" className="home-gif" />
     </div>
   );
 };

@@ -12,8 +12,8 @@
 .home-title {
   font-size: 2.5rem;
   color: white;
-  margin-bottom: 1rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 100px;
 }
 
 /* Subtitle */
@@ -23,3 +23,14 @@
   color: #dcdcdc;
   line-height: 1.6;
 }
+
+.home-gif {
+  display: block;           /* ensures the image is treated as a block element */
+  margin: 0 auto;           /* centers the block element horizontally */
+  max-width: 100%;           /* responsive width */
+  height: 100%;
+  border-radius: 12px;      /* optional */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optional */
+  margin-top: 50px;
+}
+
