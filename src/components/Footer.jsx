@@ -1,4 +1,7 @@
 import '../styles/Footer.css'
+import fb from '../components/facebook-logo-facebook-icon-free-free-vector-removebg-preview.png'
+import x from '../components/images-removebg-preview.png'
+import ig from '../components/ig logo.png'
 
 const Footer = () => {
   return (
@@ -20,10 +23,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <span>📘</span>
-            <span>🐦</span>
-            <span>📸</span>
-          </div>
+             <img src={fb} alt="fb-logo" className="social-icon-img" />
+             <img src={x} alt="x-logo" className="social-icon-img" />
+             <img src={ig} alt="ig-logo" className="social-icon-img" />
+        </div>
         </div>
 
       </div>

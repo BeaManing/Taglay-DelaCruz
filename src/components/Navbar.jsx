@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../components/skibidiwata-removebg-preview.png'
+import logo from '../components/download-removebg-preview.png'
 import '../styles/Navbar.css'
 
 
