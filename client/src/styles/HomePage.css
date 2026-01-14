@@ -1,0 +1,36 @@
+/* Home Page Container */
+.home-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Title matches .page-title style */
+.home-title {
+  font-size: 2.5rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 100px;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #dcdcdc;
+  line-height: 1.6;
+}
+
+.home-gif {
+  display: block;           /* ensures the image is treated as a block element */
+  margin: 0 auto;           /* centers the block element horizontally */
+  max-width: 100%;           /* responsive width */
+  height: 100%;
+  border-radius: 12px;      /* optional */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optional */
+  margin-top: 50px;
+}
+

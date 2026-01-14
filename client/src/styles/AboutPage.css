@@ -1,0 +1,32 @@
+.about-page-container {
+  max-width: 1000px;        /* wider container */
+  margin: 0 auto;
+  padding: 3rem;           /* more spacing */
+  font-family: Arial, sans-serif;
+}
+
+.about-title {
+  font-size: 3rem;         /* bigger title */
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;         /* WHITE title */
+  margin-bottom: 2.5rem;
+}
+
+.about-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 3rem;           /* bigger card */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-card p {
+  font-size: 1.25rem;      /* bigger text */
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.about-card p:last-child {
+  margin-bottom: 0;
+}
